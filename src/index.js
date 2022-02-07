@@ -39,4 +39,32 @@ const siteContent = { // DO NOT CHANGE THIS OBJECT
   },
 };
 
-console.log('project wired!')
+/*
+  [ ] Give the class "italic" to all "header nav a" //navItems
+  [ ] Add text content to all "header nav a"
+  [ ] Add src to #logo-img
+  [ ] Add text to ".cta-text h1" and ".cta-text button"
+  [ ] Add src to #cta-img
+  [ ] Add text to all <h4> and <p> in .text-content in .top-content
+  [ ] Add src to #middle-img
+  [ ] Add text to all <h4> and <p> in .text-content in .bottom-content
+  [ ] Add <h4> and <p> text to .contact
+  [ ] Add class .bold to "footer a"
+  [ ] Add text to "footer a"
+*/
+
+const navItems = document.querySelectorAll("header nav a");
+const logo = document.querySelector("#logo-img");
+const ctaText = document.querySelector(".cta-text h1");
+const ctaButton = document.querySelector(".cta-text button");
+const cta = document.querySelector("#cta-img");
+const topHeaders = document.querySelectorAll(".top-content .text-content h4");
+const topText = document.querySelectorAll(".top-content .text-content p");
+const bottomHeaders = document.querySelectorAll(".bottom-content .text-content h4");
+const bottomText = document.querySelectorAll(".bottom-content .text-content p");
+const middleImg = document.querySelector("#middle-img");
+const contactHeader = document.querySelector(".contact h4");
+const contactText = document.querySelectorAll(".contact p");
+const footer = document.querySelecter("footer a");
+
+console.log(navItems);
